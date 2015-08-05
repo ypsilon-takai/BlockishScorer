@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<FrameLayout
+		android:id="@+id/FrameLayout01"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:paddingBottom="10sp"
+			android:paddingTop="30sp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="@dimen/game_name_size"
+			android:layout_width="wrap_content"
+			android:id="@+id/GameTitle"
+			android:text="@string/not_set">
+		</TextView>
+</FrameLayout>
+
+	<FrameLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TableLayout
+			android:layout_gravity="center_horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TableRow
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			    android:paddingTop="20sp"
+   				android:paddingBottom="30sp">
+
+				<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+				    android:paddingRight="30sp">
+					<TextView
+						android:id="@+id/TeamNameL"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:textSize="@dimen/team_name_size"
+						android:text="@string/not_set"
+		   				android:paddingBottom="10sp">
+					</TextView>
+					<TextView
+						android:id="@+id/PointDispL"
+						android:background="@drawable/blue_textbox"
+						android:textColor="@android:color/black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:gravity="center"
+						android:textSize="@dimen/point_size"
+						android:text="@string/zero"
+		   				android:paddingBottom="10sp">
+					</TextView>
+					<Button
+						android:id="@+id/ButtonL"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:textSize="@dimen/point_botton_text_size"
+						android:text="@string/get_a_score">
+					</Button>
+				</LinearLayout>
+
+				<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+				    android:paddingLeft="30sp">
+					<TextView
+						android:id="@+id/TeamNameR"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:textSize="@dimen/team_name_size"
+						android:text="@string/not_set"
+		   				android:paddingBottom="10sp">
+					</TextView>
+					<TextView
+						android:id="@+id/PointDispR"
+						android:background="@drawable/red_textbox"
+						android:textColor="@android:color/black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:textSize="@dimen/point_size"
+						android:text="@string/zero"
+						android:gravity="center"
+						android:paddingBottom="10sp">
+					</TextView>
+					<Button
+						android:id="@+id/ButtonR"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:textSize="@dimen/point_botton_text_size"
+						android:text="@string/get_a_score">
+					</Button>
+				</LinearLayout>
+
+			</TableRow>
+		</TableLayout>
+
+	</FrameLayout>
+
+	<FrameLayout
+		android:id="@+id/FrameLayout03"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<ListView
+			android:id="@+id/GamePointList"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+		</ListView>
+</FrameLayout>
+
+</LinearLayout>

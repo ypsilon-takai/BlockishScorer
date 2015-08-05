@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Layout>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ListViewLayout"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:padding="4dip">
+
+	<ImageView
+		android:id="@+id/MarkLeft"
+		android:layout_width="30sp"
+		android:layout_height="30sp"
+		android:paddingLeft="3sp"
+		android:background="@drawable/blue_indicator">
+	</ImageView>
+
+	<TextView
+		android:id="@+id/Person"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_toRightOf="@id/MarkLeft"
+		android:paddingLeft="15sp"
+		android:paddingRight="8sp"
+		android:text="Person"
+		android:textSize="20dip">
+	</TextView>
+
+	<ImageView
+		android:id="@+id/MarkRight"
+		android:layout_width="30sp"
+		android:layout_height="30sp"
+		android:layout_alignParentRight="true"
+		android:paddingRight="8sp"
+		android:background="@drawable/red_indicator">
+	</ImageView>
+
+	<TextView
+		android:id="@+id/Period"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_toLeftOf="@id/MarkRight"
+		android:paddingLeft="3sp"
+		android:layout_marginRight="30sp"
+		android:text="Period"
+		android:textSize="10sp">
+	</TextView>
+
+	<TextView
+		android:id="@+id/Time"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_alignLeft="@id/Period"
+		android:layout_alignBottom="@id/MarkRight"
+		android:paddingLeft="3sp"
+		android:text="Time"
+		android:textSize="10sp">
+	</TextView>
+
+
+
+</RelativeLayout>

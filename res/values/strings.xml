@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ScoreView!</string>
+    <string name="app_name">BlockishScorer</string>
+<string name="not_set">Unknown</string>
+<string name="zero">0</string>
+<string name="get_a_score">GET</string>
+<dimen name="point_text_size">90sp</dimen>
+<dimen name="game_name_text_size">45sp</dimen>
+<dimen name="team_name_text_size">40sp</dimen>
+<dimen name="point_list_text_size">30sp</dimen>
+<string name="choose_game_name">Pick the game name</string>
+<dimen name="game_name_size">20dip</dimen>
+<dimen name="team_name_size">18dip</dimen>
+<dimen name="point_size">40dip</dimen>
+<dimen name="point_botton_text_size">30dip</dimen>
+<string name="select_getter_name">Select hero name</string>
+<string name="select_time">Select time in minutes.</string>
+<string name="select_period">Select period</string>
+</resources>

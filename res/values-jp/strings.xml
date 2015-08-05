@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Blockish Scorer ですよ!</string>
+    <string name="app_name">BlockishScorer</string>
+<string name="not_set">不明</string>
+<string name="zero">0</string>
+<string name="get_a_score">得点</string>
+<string name="choose_game_name">試合名を選択してください。</string>
+<string name="select_getter_name">得点者を選択してください。</string>
+<string name="select_time">得点時刻(分)を入力してください。</string>
+<string name="select_period">期間を選択してください。</string>
+</resources>
